@@ -6,7 +6,7 @@ import java.util.Scanner;
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> grades = new ArrayList<>();
 
-        System.out.println("📘 Student Grade Analyzer");
+        System.out.println(" Student Grade Analyzer");
 
         // Input section
         System.out.print("Enter the number of students: ");
@@ -36,7 +36,7 @@ import java.util.Scanner;
         double average = sum / grades.size();
 
         // Output results
-        System.out.println("\n📊 Grade Summary:");
+        System.out.println("\n Grade Summary:");
         System.out.printf("Average Grade: %.2f\n", average);
         System.out.println("Highest Grade: " + highest);
         System.out.println("Lowest Grade: " + lowest);
